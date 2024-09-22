@@ -1,0 +1,26 @@
+{
+  "name": "boulotdey-infra",
+  "version": "1.0.0",
+  "description": "Job Board api spec",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:html": "npx @redocly/cli build-docs ./api-spec/boulotdey.yaml",
+    "dev": "npx @redocly/cli preview-docs ./api-spec/boulotdey.yaml",
+    "lint": "npx @redocly/cli lint ./api-spec/boulotdey.yaml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanessa082/boulotdey-infra.git"
+  },
+  "author": "Wah Vanessa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vanessa082/boulotdey-infra/issues"
+  },
+  "homepage": "https://github.com/Vanessa082/boulotdey-infra#readme",
+  "dependencies": {
+    "g": "^2.0.1",
+    "redoc-cli": "^0.13.21"
+  }
+}
